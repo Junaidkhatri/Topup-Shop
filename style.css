@@ -1,0 +1,400 @@
+*{
+    padding: 0;
+    margin: 0;
+    text-decoration: none;
+    list-style: none;
+    box-sizing: border-box;
+}
+body{
+    font-family: montserrat;
+}
+#nav{
+    font-size: 18px;
+    background-color: #0082e6;
+}
+.bgimg{
+    fill-opacity: 30%; 
+    background-image: url(images/im1.jpg);
+    background-size: 100% 100%;
+    background-attachment: fixed;
+    width: 100%;
+    height: 530px;
+}
+.navbar-brand{
+    color: white;
+    font-size: 30px !important;
+    line-height: 80px;
+    padding: 0 80px;
+    font-weight: bold;
+}
+.nav-link{
+    color: #fff;
+    font-size: 17px;
+    padding: 7px 8px;
+    border-radius: 3;
+    text-transform: uppercase;
+}
+li.active,li a:hover{
+    background: #1b9bff;
+    transition: .5s;
+}
+.headerset{
+    padding-top: 200px;
+    box-sizing: border-box;
+}
+.headerset h1{
+    font-weight: bold;
+}
+.btn-warning{
+    background-color: #0082e6 !important;
+}
+.fa-user{
+    color: white;
+    margin-right: 15px;
+    margin-left: 15px;
+}
+.fa-shopping-cart{
+    color: white;
+}
+@media (max-width: 858px){
+    .navbar-brand{
+        color: white;
+        font-size: 30px !important;
+        line-height: 80px;
+        padding: 0 30px;
+        font-weight: bold;
+    }
+    .nav-link{
+        color: #fff;
+        font-size: 17px;
+        padding: 7px 8px;
+        border-radius: 3;
+        text-transform: uppercase;
+    }
+    li.active,li a:hover{
+        background: #1b9bff;
+        transition: .5s;
+    }
+    .bgimg{
+        background-image: url('images/im2.jpg');
+        background-size: 100% 100%;
+        background-attachment: fixed;
+        width: 100%;
+        height: 350px;
+    }
+    .btn-warning{
+        background-color: #0082e6 !important;
+        width: 70px;
+        font-size: 8px !important;
+    }
+    .headerset{
+        padding-top: 180px;
+        box-sizing: border-box;
+    }
+    .headerset h2{
+        color: white;
+        font-size: 18px;
+    }
+    .headerset h1{
+        color: white;
+        font-size: 32px;
+    }   
+    div.card{
+        margin-bottom: 20px;
+        margin-left: 60px !important;
+    }
+}
+@media (max-width: 479px){
+    .headerset h2{
+        color: white;
+        font-size: 18px;
+    }
+    .headerset h1{
+        color: white;
+        font-size: 32px;
+    }   
+    .navbar-brand{
+        color: white;
+        font-size: 20px !important;
+        line-height: 80px;
+        padding: 0 40px;
+        font-weight: bold;
+    }   
+    .bgimg{
+        fill-opacity: 30%; 
+        background-image: url(images/im2.jpg);
+        background-size: 100% 100%;
+        background-attachment: fixed;
+        width: 100%;
+        height: 180px;
+    }
+    div.card{
+        margin-bottom: 20px;
+        margin-left: 92px !important;
+    }
+}
+.fa-truck,.fa-thumbs-up,.fa-headphones{
+    font-size: 25px !important;
+    color: #0082e6;
+    margin-right: 10px;
+}
+.card2 svg{
+    height: 30px;
+    width: 30px;
+    margin-right: 10px;
+}
+h3{
+    color: #0082e6;
+}
+.card1,.card2,.card3{
+    display: flex;
+    width: 300px;
+    height: 60px;
+    background-color: #fff;
+    box-shadow: 2px 4px 5px gray;
+    justify-content: center;
+    align-items: center;
+    margin-top: 10px;
+}
+.maincard{
+    margin-top: 30px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    flex-wrap: wrap; 
+}
+.maincard h3{
+    font-size: 20px;
+}
+@media screen and (max-width: 600px){
+    .bgimg{
+        background-image: url('images/im2.jpg');
+        background-size: 100% 100%;
+        background-attachment: fixed;
+        width: 100%;
+        height: 320px;
+    }
+    .card1,.card2,.card3{
+        width: 90%;
+        height: 90px;
+    }
+    .fa-truck,.fa-thumbs-up,.fa-headphones{
+        font-size: 30px !important;
+        color: #0082e6;
+        margin-right: 10px;
+    }
+    .card2 svg{
+        height: 35px;
+        width: 35px;
+        margin-right: 10px;
+    }
+    .maincard h3{
+        font-size:30px;
+    }
+    .card{
+        margin-bottom: 20px;
+        margin-left: 150px !important;
+    }
+    .btn-warning{
+        background-color: #0082e6 !important;
+        width: 70px;
+        font-size: 8px;
+    }
+    .headerset h2{
+        color: white;
+        font-size: 15px;
+    }
+    .headerset h1{
+        color: white;
+        font-size: 22px;
+    }  
+    .headerset{
+        padding-top: 160px;
+        box-sizing: border-box;
+    }
+}
+.newArrivals{
+    margin-top: 50px;
+}
+.newArrivals img{
+    height: 150px;
+}
+.card-text{
+    font-weight: bold;
+}
+.btn-primary{
+    width: 100%;
+    background-color: #0082e6;
+}
+div.card{
+    margin-bottom: 20px;
+    margin-left: 22px !important;
+}
+@media screen and (max-width: 360px){
+    #nav{
+        font-size: 18px;
+        background-color: #0082e6;
+    }
+    .bgimg{
+        fill-opacity: 30%; 
+        background-image: url(images/im2.jpg);
+        background-size: 100% 100%;
+        background-attachment: fixed;
+        width: 100%;
+        height: 230px;
+    }
+    .navbar-brand{
+        color: white;
+        font-size: 20px !important;
+        line-height: 80px;
+        padding: 0 50px;
+        font-weight: bold;
+    }   
+    .nav-link{
+        color: #fff;
+        font-size: 12px;
+        padding: 7px 8px;
+        border-radius: 3;
+        text-transform: uppercase;
+    }
+    li.active,li a:hover{
+        background: #1b9bff;
+        transition: .5s;
+    }
+    .headerset{
+        padding-top: 100px;
+        box-sizing: border-box;
+    }
+    .headerset h1{
+        font-weight: bold;
+    }
+    .btn-warning{
+        background-color: #0082e6 !important;
+        width: 70px;
+        font-size: 7px;
+    }
+    .fa-user{
+        color: white;
+        margin-right: 15px;
+        margin-top: 10px;
+        margin-bottom: 10px;
+        margin-left: 15px;
+    }
+    .fa-shopping-cart{
+        color: white;
+    }
+    .card{
+        margin-bottom: 20px;
+        margin-left: 65px;
+    }
+    .headerset h2{
+        color: white;
+        font-size: 15px;
+    }
+    .headerset h1{
+        color: white;
+        font-size: 22px;
+    }  
+}
+@media screen and (max-width: 375px){
+    div.card{
+        margin-bottom: 20px;
+        margin-left: 70px !important;
+    }
+    .footer{
+        width: 100%;
+        height: 40px !important;
+        background-color: #0082e6;
+    }
+    h4{
+        color: #fff;
+        font-size: 15px !important;
+        padding-top: 15px;
+    }
+}
+@media screen and (max-width: 770px){
+    div.card{
+        margin-bottom: 20px;
+        margin-left: 75px !important;
+    }
+}
+.heading{
+    text-align: center;
+    font-weight: bold;
+    font-family: sans-serif;
+    color: #0082e6;
+    margin: 20px;
+}
+.heading > h1{
+      text-shadow: 2px 2px 4px gray;
+}
+.heading > h1:hover{
+    color: #1b9bff;
+    transition: .5s;   
+    text-shadow: 2px 2px 4px lightseagreen;
+}
+.footer{
+    width: 100%;
+    height: 60px;
+    background-color: #0082e6;
+}
+.footer > div {
+    text-align: center;
+}
+h4{
+    color: #fff;
+    font-size: 5px;
+    padding-top: 15px;
+}
+
+@media screen and (max-width: 360px){
+    .footer{
+        width: 100%;
+        height: 40px;
+        background-color: #0082e6;
+    }
+    h4{
+        color: #fff;
+        font-size: 12px !important;
+        padding-top: 15px;
+    }
+    div.card{
+        margin-left: 65px !important;
+    }
+}
+@media screen and (max-width: 320px){
+    div.card{
+        margin-left: 50px !important;
+    }
+}
+@media screen and (max-width: 414px){
+    .footer{
+        width: 100%;
+        height: 40px;
+        background-color: #0082e6;
+    }
+    h4{
+        color: #fff;
+        font-size: 12px !important;
+        padding-top: 15px;
+    }
+}
+#myBtn {
+  display: none;
+  position: fixed;
+  bottom: 20px;
+  right: 30px;
+  z-index: 99;
+  font-size: 18px;
+  border: none;
+  outline: none;
+  background-color: #0082e6;
+  color: white;
+  cursor: pointer;
+  padding: 15px;
+  border-radius: 50%;
+}
+
+#myBtn:hover {
+  background-color: #555;
+}
